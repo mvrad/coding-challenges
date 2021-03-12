@@ -110,9 +110,9 @@ void findPair3(int arr[], int n, int sum)
   cout << "Pair not found";
 }
 
-// main()
+// **-- main() --**
 
-// Naive Solution
+// *-- Naive Solution --*
 
 // int main()
 // {
@@ -126,7 +126,7 @@ void findPair3(int arr[], int n, int sum)
 //   return 0;
 // }
 
-// O(n log n) solution
+// *-- O(n log n) solution --*
 
 // int main()
 // {
@@ -140,7 +140,7 @@ void findPair3(int arr[], int n, int sum)
 //   return 0;
 // }
 
-// O(n) solution
+// *-- O(n) solution --*
 
 int main()
 {
