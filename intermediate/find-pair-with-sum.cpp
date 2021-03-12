@@ -40,18 +40,6 @@ void findPair1(int arr[], int n, int sum)
   printf("Pair not found");
 }
 
-// int main()
-// {
-//   int arr[] = { 8, 7, 2, 5, 3, 1 };
-//   int sum = 10;
-
-//   int n = sizeof(arr)/sizeof(arr[0]);
-
-//   findPair1(arr, n, sum);
-
-//   return 0;
-// }
-
 // Better solution: O(n log n) using sorting
 
 #include <iostream>
@@ -89,18 +77,6 @@ void findPair2(int arr[], int n, int sum)
   cout << "Pair not found";
 }
 
-// int main()
-// {
-//   int arr[] = { 8, 7, 2, 5, 3, 1};
-//   int sum = 10;
-
-//   int n = sizeof(arr)/sizeof(arr[0]);
-
-//   findPair2(arr, n, sum);
-
-//   return 0;
-// }
-
 // Even better solution: O(n) using hashing
 
 // #include <iostream>
@@ -133,6 +109,38 @@ void findPair3(int arr[], int n, int sum)
   // we reach here if the pair is not found
   cout << "Pair not found";
 }
+
+// main()
+
+// Naive Solution
+
+// int main()
+// {
+//   int arr[] = { 8, 7, 2, 5, 3, 1 };
+//   int sum = 10;
+
+//   int n = sizeof(arr)/sizeof(arr[0]);
+
+//   findPair1(arr, n, sum);
+
+//   return 0;
+// }
+
+// O(n log n) solution
+
+// int main()
+// {
+//   int arr[] = { 8, 7, 2, 5, 3, 1};
+//   int sum = 10;
+
+//   int n = sizeof(arr)/sizeof(arr[0]);
+
+//   findPair2(arr, n, sum);
+
+//   return 0;
+// }
+
+// O(n) solution
 
 int main()
 {
