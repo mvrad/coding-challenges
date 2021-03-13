@@ -13,7 +13,7 @@
 using namespace std;
 
 // int main() {
-  
+
 //   string greeting = "Hello";
 //   int len = greeting.length();
 //   int n = len - 1;
@@ -60,16 +60,15 @@ void reverse_String (string& greet, int n, int i)
 
 using namespace std;
 
-int main() {
-  
+int main()
+{
   string greeting = "Hello";
-
   string new_greeting;
 
-  for(int n = greeting.length() - 1; n >= 0; n--){
+  for(int n = greeting.length() - 1; n >= 0; n--)
+  {
     new_greeting.push_back(greeting[n]);
   }
   cout << "Original string: " << greeting << endl;
   cout << "New reversed string: " << new_greeting << endl;
-  
 }
