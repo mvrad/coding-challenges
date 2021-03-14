@@ -70,7 +70,7 @@ void findPair2(int arr[], int n, int sum)
 
     // increment `low` index if the total is less than the desired sum;
     // decrement `high` index if the total is more than the desired sum
-    (arr[low] + arr[high] < sum)? low++: high--;
+    (arr[low] + arr[high] < sum) ? low++: high--;
   }
 
   // we reach here if the pair is not found
